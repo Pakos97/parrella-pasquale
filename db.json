@@ -1,0 +1,88 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "name": "Enrico",
+      "surname": "Viola",
+      "dateOfBirth": "1977-12-02",
+      "email": "enrico.viola@example.com",
+      "isDeleted": false
+    },
+    {
+      "id": "2",
+      "name": "Luca",
+      "surname": "Bianchi",
+      "dateOfBirth": "1980-01-01",
+      "email": "luca.bianchi@example.com",
+      "isDeleted": false
+    },
+    {
+      "id": "3",
+      "name": "Giulia",
+      "surname": "Verdi",
+      "dateOfBirth": "1995-01-01",
+      "email": "giulia.verdi@example.com",
+      "isDeleted": false
+    },
+    {
+      "id": "4",
+      "name": "Anna",
+      "surname": "Neri",
+      "dateOfBirth": "1985-01-01",
+      "email": "anna.neri@example.com",
+      "isDeleted": false
+    },
+    {
+      "id": "5",
+      "name": "Stefano",
+      "surname": "Gialli",
+      "dateOfBirth": "1992-01-01",
+      "email": "stefano.gialli@example.com",
+      "isDeleted": false
+    }
+  ],
+  "log": [
+    {
+      "id": "1",
+      "userId": "1",
+      "dateTime": "2020-01-01T10:00:00",
+      "action": "create",
+      "description": "User mario.rossi@example.com created"
+    },
+    {
+      "id": "2",
+      "userId": "2",
+      "dateTime": "2020-01-01T11:00:00",
+      "action": "create",
+      "description": "User luca.bianchi@example.com created"
+    },
+    {
+      "id": "3",
+      "userId": "3",
+      "dateTime": "2020-01-01T12:00:00",
+      "action": "create",
+      "description": "giulia.verdi@example.com"
+    },
+    {
+      "id": "4",
+      "userId": "4",
+      "dateTime": "2020-01-01T13:00:00",
+      "action": "create",
+      "description": "User anna.neri@example.com"
+    },
+    {
+      "id": "5",
+      "userId": "5",
+      "dateTime": "2020-01-01T14:00:00",
+      "action": "create",
+      "description": "stefano.gialli@example.com"
+    },
+    {
+      "id": "0e8b",
+      "userId": "1",
+      "dateTime": "2020-01-01T10:00:00",
+      "action": "update",
+      "description": "User mario.rossi@example.com updated"
+    }
+  ]
+}

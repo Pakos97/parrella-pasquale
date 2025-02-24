@@ -1,0 +1,12 @@
+{
+    "/user": {
+        "target": "http://localhost:3000",
+        "secure": false,
+        "changeOrigin": true
+    },
+    "/log": {
+        "target": "http://localhost:3000",
+        "secure": false,
+        "changeOrigin": true
+    }
+}
