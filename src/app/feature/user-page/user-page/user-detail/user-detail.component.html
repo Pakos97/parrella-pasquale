@@ -1,7 +1,7 @@
 <div class="card-container">
     <p-card>
       <ng-template pTemplate="header">
-        <h2>User Details</h2>
+        <h2 class="card-title">User Details</h2>
       </ng-template>
       <p-table [value]="user ? [user] : []" [tableStyle]="{ 'min-width': '50rem' }">
         <ng-template pTemplate="body" let-user>
