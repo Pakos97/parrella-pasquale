@@ -18,7 +18,9 @@
                 <td>{{ user.surname }}</td>
                 <td>{{ user.email }}</td>
                 <td>{{ user.dateOfBirth | date:'yyyy-MM-dd' }}</td>
-                <td><button class="btn btn-primary">Details</button></td>
+                <td>
+                    <button [routerLink]="['/users', user.id]">Details</button>
+                </td>
             </tr>
         </ng-template>
     </p-table>
